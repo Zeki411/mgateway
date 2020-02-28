@@ -16,3 +16,11 @@ This software is used to set up a LoRa concentrator using a JSON configuration f
 ### 2.2. DataHandle.py
 
 This software is used to parse the raw data in the file above and then log it in the file `parsedData.csv`
+
+### 2.3. TCPPacketForwarder
+
+This software is used to forward the packet to server
+
+3. Helper scripts
+
+This script must be launched on IoT Start Kit platform to reset concentrator chip through GPIO, before starting any application using the concentrator.
